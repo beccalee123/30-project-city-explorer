@@ -71,21 +71,23 @@ class Search extends React.Component {
                         <h2 className="query-placeholder">Here are the results for {this.state.dataBody.formatted_query}</h2>
                     </When>
                     <When condition={this.state.weather.length}>
-                        <Weather
-                            weather={this.state.weather}
-                        />
-                        <Yelp
-                            yelp={this.state.yelp}
-                        />
-                        <Meetup
-                            meetups={this.state.meetups}
-                        />
-                        <Movies
-                            movies={this.state.movies}
-                        />
-                        <Trails
-                            trails={this.state.trails}
-                        />
+                        <div className="column-container">
+                            <Weather
+                                weather={this.state.weather}
+                            />
+                            <Yelp
+                                yelp={this.state.yelp}
+                            />
+                            <Meetup
+                                meetups={this.state.meetups}
+                            />
+                            <Movies
+                                movies={this.state.movies}
+                            />
+                            <Trails
+                                trails={this.state.trails}
+                            />
+                            </div>
                     </When>
 
                 </main>
