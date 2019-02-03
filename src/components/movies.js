@@ -14,7 +14,7 @@ const Movies = (props) => {
    <p><span>{movie.title}</span> 
          was relased on {movie.released_date}. Out of {movie.vote_count} total votes, {movie.title} has an average vote of {movie.vote_average} and a popularity score of {movie.popularity}.
     </p>
-    <img src={movie.poster_path} alt="poster"/>
+    <img src={movie.image_url} alt="poster"/>
     <p>{movie.overview}</p>
    </li>
    )};
