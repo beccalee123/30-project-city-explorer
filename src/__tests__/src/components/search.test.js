@@ -1,8 +1,6 @@
 import React from 'react';
 import renderer from "react-test-renderer";
 import Search from "../../../components/search.js";
-import When from "../../../components/when.js";
-import Weather from "../../../components/data/weather.js";
 
 
 describe('Search', () => {
@@ -83,6 +81,5 @@ describe('Search', () => {
     submission.simulate('submit');
     expect(component.find('.meetups-results')).toBeTruthy();
   });
-
 
 });
