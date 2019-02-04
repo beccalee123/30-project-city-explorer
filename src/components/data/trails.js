@@ -1,5 +1,12 @@
 import React from 'react';
 
+
+/**
+ *
+ *
+ * @function Trails - Renders html markup for Trails component.
+ * @params (props)
+ */
 const Trails = (props) => {
   
  return(

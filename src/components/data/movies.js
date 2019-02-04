@@ -1,5 +1,12 @@
 import React from 'react';
 
+
+/**
+ *
+ *
+ * @function Movies - Renders html markup for Movies component.
+ * @params (props)
+ */
 const Movies = (props) => {
   
  return(

@@ -1,7 +1,12 @@
 import React from 'react';
 
 
-
+/**
+ *
+ *
+ * @function Weather - Renders html markup for Weather component.
+ * @params (props)
+ */
 const Weather = (props) => {
   
  return(

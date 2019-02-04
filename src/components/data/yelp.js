@@ -1,5 +1,12 @@
 import React from 'react';
 
+
+/**
+ *
+ *
+ * @function Yelp - Renders html markup for Yelp component.
+ * @params (props)
+ */
 const Yelp = (props) => {
   
  return (

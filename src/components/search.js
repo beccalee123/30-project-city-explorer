@@ -8,6 +8,12 @@ import Trails from './data/trails';
 import When from './when.js';
 
 
+/**
+ *
+ *
+ * @class Search creates a 'Search' component for searching APIs (Google location (maps), Dark Sky, Yelp, Meetups, Movies DB, Trails) and rendering results once data is received. State for <Search /> defined in constructor and state is passed to relevant components.  Components rendered within Search Component: <Weather />, <Yelp />, <Meetups />, <Movies />, <Trails />.
+ * @extends {React.Component}
+ */
 class Search extends React.Component {
 	constructor(props) {
 		super(props);
@@ -19,7 +25,12 @@ class Search extends React.Component {
 
 	}
 
-	handleSubmit = async (e) => {
+	/**
+     *
+     * @method handleSubmit - async method that is triggered on submit and is passed an event.  On submission event, API calls for location (google map), weather, movies, yelp, meetups, and trails are made.  State is set.
+     * @memberof Search - handles submission of form.  
+     */
+    handleSubmit = async (e) => {
 		console.log('in submit');
 		e.preventDefault();
 		let url = 'https://city-explorer-backend.herokuapp.com'
@@ -41,7 +52,13 @@ class Search extends React.Component {
 		});
 	}
 
-	render() {
+	/**
+     *
+     *
+     * @returns - rendered data from components.
+     * @memberof Search
+     */
+    render() {
 		return (
 			<React.Fragment>
 				<main>
