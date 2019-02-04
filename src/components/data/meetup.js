@@ -1,5 +1,11 @@
 import React from 'react';
 
+/**
+ *
+ *
+ * @function Meetup - Renders html markup for Meetup component.
+ * @params (props)
+ */
 const Meetup = (props) => {
   
   console.log('data from meetup', props.meetups);
