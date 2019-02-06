@@ -9,7 +9,7 @@
 * [repo](https://github.com/beccalee123/30-project-city-explorer)
 * [travis](https://www.travis-ci.com/beccalee123/30-project-city-explorer)
 * [back-end](https://city-explorer-backend.herokuapp.com)
-* [front-end](http://xyz.com) 
+* [front-end](https://d3oni9l2gjzuzv.cloudfront.net/) 
 
 
 ### Modules
